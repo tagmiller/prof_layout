@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.center {
+  padding: 0 calc(50% - 570px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 100px;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  box-shadow: 0px 0px 10px 0px #ececec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left,
+.header__right,
+.header__form {
+  display: flex;
+  align-items: center;
+}
+
+.header__cart {
+  margin-right: 26px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 37px;
+  font-size: 27px;
+  font-weight: 300;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.logo__img {
+  margin-right: 13px;
+}
+
+.letter_D {
+  font-size: 27px;
+  font-weight: 900;
+  color: rgba(241, 109, 127, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.header__form {
+  border-radius: 0px 3px 3px 0px;
+  order: 1px solid rgba(230, 230, 230, 1);
+}
+
+.browse {
+  width: 87px;
+  height: 38px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 35px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: transparent;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.input_search {
+  width: 279px;
+  height: 38px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(164, 164, 164, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+}
+
+input[class="input_search"]::placeholder {
+  color: rgba(164, 164, 164, 1);
+}
+
+button {
+  top: 32px;
+  left: 515px;
+  height: 40px;
+  width: 38px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: transparent;
+}
+
+.button {
+  font-size: 15px;
+  background-color: rgba(241, 109, 127, 1);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px 16px;
+  border: 1px solid rgba(241, 109, 127, 1);
+}
+
+.button:hover {
+  border: 1px solid rgba(241, 109, 127, 1);
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(241, 109, 127, 1);
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu__link {
+  padding: 20px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.product {
+  height: 148px;
+  background-color: #f8f3f4;
+}
+.product_block {
+  padding-top: 69px;
+}
+.product_new_ar {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f16d7f;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.menu_product {
+  float: right;
+}
+.menu_product_a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #636363;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.menu_product_a_active {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f16d7f;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.product_descr {
+  height: 730px;
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.women_col_h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f16d7f;
+  line-height: 24px;
+}
+
+.descr_h2 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #4d4d4d;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.descr_p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #5e5e5e;
+  text-align: center;
+  line-height: 24px;
+}
+
+.descr_prod_card {
+  display: flex;
+  justify-content: center;
+}
+
+.descr_prod_card_p {
+  margin-right: 44px;
+}
+.span_mat {
+  padding-left: 44px;
+}
+
+.cost {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ef5b70;
+  text-align: center;
+  line-height: 24px;
+}
+
+.choose {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2f2f2f;
+  text-align: center;
+  line-height: 24px;
+}
+
+.add {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ef5b70;
+}
