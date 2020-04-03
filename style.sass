@@ -68,7 +68,7 @@ a
 
 .header__form
   border-radius: 0px 3px 3px 0px
-  border: 1px solid $second-color-site
+
 
 
 .browse
@@ -90,7 +90,7 @@ a
 
 .browse[open] .drop
   display: flex
-  top: 20px
+  top: 38px
   z-index: 1
 
 
@@ -100,11 +100,13 @@ a
   border: 1px solid
   font-size: 14px
   font-weight: 300
-  color: rgba(164, 164, 164, 1)
+  color: #e6e6e6
   text-align: left
   letter-spacing: 0.03em
-  line-height: 32px $second-color-site
-
+  line-height: 32px
+  padding-left: 16px
+  padding-right: 16px
+  outline: none
 
 input[class="input_search"]::placeholder
   color: rgba(164, 164, 164, 1)
@@ -136,6 +138,15 @@ button
   border: 1px solid $color-site
   background-color: rgba(255, 255, 255, 1)
   color: $color-site
+
+.drop_cart
+  display: none
+
+.header__cart:active .drop_cart
+  display: flex
+
+
+
 
 
 .menu
@@ -178,14 +189,32 @@ button
 
 .drop_col
   margin-right: 46px
+  /*line-height: 0
+  /*margin-bottom: 10px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
+.li-drop_a
+  height: 14px
+  padding-top: 13px
+
+.li-drop_a:first-of-type
+  padding-top: 0
 
 .drop_col:last-of-type
   margin-right: 0
 
 
+.drop_col_img
+  height: 118px
+  width: 255px
+  padding-top: 20px
+
+
 .drop_ul
   list-style: none
+  padding-left: 7px
 
 
 .drop_h3
@@ -198,18 +227,25 @@ button
   width: 234px
   margin-bottom: 8px
 
+.drop_h3:last-of-type
+  margin-top: 10px
+.drop_h3:first-of-type
+  margin-top: 0
+
 
 .drop_a
   font-size: 14px
   color: #646464
   text-align: right
   letter-spacing: 0.03em
-  line-height: 28px
+  line-height: 14px
 
 
 .drop_a:hover
   color: $color-site
 
+.ul .drop_ul:last-of-type
+  margin-bottom: 0
 
 
 .promo
@@ -264,7 +300,7 @@ button
 
 .offer__item_content
   padding: 20px 16px
-  border: 1px solid gray
+  border: 1px solid #e6e6e6
   position: absolute
   background-color: #fff
   margin-top: 26px
@@ -524,6 +560,8 @@ button
     line-height: 54px
     padding-left: 28px
     padding-right: 78px
+    outline: none
+
 
 .button_subscribe
   font-size: 14px
