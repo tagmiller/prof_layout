@@ -179,7 +179,7 @@ button {
   color: #f16d7f;
 }
 
-.test:hover .drop_cart {
+.header__right_block:hover .drop_cart {
   display: flex;
 }
 
