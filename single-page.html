@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+            rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c47af682f9.js" crossorigin="anonymous"></script>
   </head>
   <body>
   <header class="header center">
@@ -51,7 +52,7 @@
                 type="text"
                 placeholder="    Search for Item..."
         />
-        <button style="outline: none"><img src="img/search.png" alt="search" /></button>
+        <button class="button_search" style="outline: none"><img src="img/search.png" alt="search" /></button>
 
       </form>
     </div>
@@ -137,31 +138,125 @@
         <a href="#" class="bc_link  bc_link_active">New Arrivals</a>
       </nav>
     </div>
-    <section class="image-slide center">
-      <div class="image-slide_img"></div>
-      <div class="product_descr">
-        <h1 class="women_col_h1">WOMEN COLLECTION</h1>
-        <h2 class="descr_h2">Moschino Cheap And Chic</h2>
+    <section class="sp">
+      <div class="sp__image"><img class="sp__image_img" src="img/sp_img.png" alt="product image"></div>
+      <div class="sp__descr center">
+        <h1 class="sp__descr_h1">WOMEN COLLECTION</h1>
+        <h2 class="sp__descr_h2">Moschino Cheap And Chic</h2>
 
-        <p class="descr_p">
-          Compellingly actualize fully researched processes before proactive
+        <p class="sp__descr_p">
+          Compellingly atualize fully researched processes before proactive
           outsourcing. Progressively syndicate collaborative architectures
           before cutting-edge services. Completely visualize parallel core
           competencies rather than exceptional portals.
         </p>
-        <div class="descr_prod_card">
-          <p class="descr_prod_card_p"><span class="">MATERIAL:</span>COTTON</p>
-          <p><span class="">DESIGNER::</span>BINBURHAN</p>
+        <div class="sp__descr_bottom">
+          <p class="sp__descr_bottom_p"><span class="sp__descr_bottom_span1">MATERIAL:</span><span class="sp__descr_bottom_span">COTTON</span></p>
+          <p><span class="sp__descr_bottom_span1">DESIGNER:</span><span class="sp__descr_bottom_span2">BINBURHAN</span></p>
         </div>
-        <p class="cost">$561</p>
-        <div class="choose_block">
-          <div class="choose">CHOOSE COLOR</div>
-          <div class="choose">CHOOSE SI</div>
-          <div class="choose">Quantity</div>
+        <p class="sp__cost">$561</p>
+        <div class="sp__choose">
+          <div class="sp__choose_block">CHOOSE COLOR</div>
+          <div class="sp__choose_block">CHOOSE SIZE</div>
+          <div class="sp__choose_block">Quantity</div>
 
         </div>
-        <button class="add">Add to Cart</button>
+        <div class="sp__button">
+          <img class="sp__button_cart" src="img/sp_cart.png" alt="cart">
+          <button class="sp__button_add">Add to Cart</button>
+        </div>
       </div>
     </section>
+  <section class="subscribe center">
+    <div class="subscribe_feedback">
+      <div class="sub_1">
+        <img src="img/2206.png" alt="" class="girl_head">
+        <article class="sub_1_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+          <h1 class="sub_1_h1"><span class="subscribe_1_h1_span">Bin Burhan<br></span>Dhaka, Bd</h1></article>
+      </div>
+      <div class="subscribe_email">
+        <h1 class="subscribe_email_h1">SUBSCRIBE</h1>
+        <p class="subscribe_email_p">FOR OUR NEWLETTER AND PROMOTION</p>
+        <div class="subscribe_email_form">
+          <div class="subscribe_form">
+            <form action="">
+              <input class="input_sub" type=”text” name=”email” placeholder="Enter Your Email">
+              <a href="#" class="button_subscribe">Subscribe</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer center  ">
+    <div class="footer_logo_logic">
+      <div class="logo_text_footer">
+        <a href="" class="logo">
+          <img class="logo__img" src="img/logo.png" alt="logo" />BRAN
+          <span class="letter_D">D</span></a
+        >
+        <p class="footer_p">
+          Objectively transition extensive data rather than cross functional
+          solutions. Monotonectally syndicate multidisciplinary materials
+          before go forward benefits. Intrinsicly syndicate an expanded array
+          of processes and cross-unit partnerships. <br/><br/>
+          Efficiently plagiarize 24 /365 action items and focused
+          infomediaries. Distinctively seize superior initiatives for wireless
+          technologies. Dynamically optimize.
+        </p>
+      </div>
+      <div class="data_footer">
+        <div class="data_footer_all">
+          <h1 class="footer_all_h1">COMPANY</h1>
+          <div class="foot_nav">
+            <a class="footer_nav_a" href="#">Home</a>
+            <a class="footer_nav_a" href="#">Shop</a>
+            <a class="footer_nav_a" href="#">About</a>
+            <a class="footer_nav_a" href="#">How It Works</a>
+            <a class="footer_nav_a" href="#">Contact</a>
+          </div>
+        </div>
+        <div class="data_footer_all data_footer_all_2">
+          <h1 class="footer_all_h1">INFORMATION</h1>
+          <div class="foot_nav">
+            <a class="footer_nav_a" href="#">Tearms & Condition</a>
+            <a class="footer_nav_a" href="#">Privacy Policy</a>
+            <a class="footer_nav_a" href="#">How to Buy</a>
+            <a class="footer_nav_a" href="#">How to Sell</a>
+            <a class="footer_nav_a" href="#">Promotion</a>
+          </div>
+        </div>
+        <div class="data_footer_all">
+          <h1 class="footer_all_h1">SHOP CATEGORY</h1>
+          <div class="foot_nav">
+            <a class="footer_nav_a" href="#">Men</a>
+            <a class="footer_nav_a" href="#">Women</a>
+            <a class="footer_nav_a" href="#">Child</a>
+            <a class="footer_nav_a" href="#">Apparel</a>
+            <a class="footer_nav_a" href="#">Brows All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </footer>
+  <footer class="footer_bottom">
+    <div class="footer_bottom_content center">
+      <div class="footer_bottom_link">
+        &copy; 2017  Brand All Rights Reserved.
+      </div>
+      <div class="footer_bottom_icons">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="icon"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+  </footer>
   </body>
 </html>
