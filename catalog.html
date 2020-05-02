@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/c47af682f9.js" crossorigin="anonymous"></script>
-  </head>
+      href="https://fontshttps://kit.fontawesome.com/c47af682f9.js" crossorigin="anonymous"></script></head>
 
   <body>
   <header class="header center">
@@ -19,7 +14,7 @@
               <img class="logo__img" src="img/logo.png" alt="logo" />BRAN<span class="letter_D">D</span></a>
           <form action="" class="header__form">
               <details class="browse">
-                  <summary class="summary_browse" >Browse</summary>
+          <summary class="summary_browse" >Browse</summary>
                   <div class="drop"  >
                       <div class="drop_col">
                           <h3 class="drop_h3">Women</h3>
@@ -51,9 +46,8 @@
               <input
                       class="input_search"
                       type="text"
-                      placeholder="    Search for Item..."
-              />
-              <button class="button_search" style="outline: none"><img src="img/search.png" alt="search" /></button>
+                      placeholder="Search for Item..."/>
+              <button class="button_search" style="outline: none"><img src="img/search.png" alt="search"/></button>
 
           </form>
       </div>
@@ -195,67 +189,97 @@
         </li>
       </ul>
     </nav>
-    <div class="bc center">
+    <section class="bc center">
         <a href="single-page.html"><h3 class="bc_h3">New Arrivals</h3></a>
         <nav>
           <a href="" class="bc_link">Home</a>
           <a href="" class="bc_link">Men</a>
           <a href="#" class="bc_link  bc_link_active">New Arrivals</a>
         </nav>
-    </div>
-
-    <div class="catalog center">
-        <div class="sort">
-            <details open>
-            <summary>Category</summary>
-                <ul>
-                    <li class="drop_list"></li>
-                    <li class="drop_list">Accessories</li>
-                    <li class="drop_list">Bags</li>
-                    <li class="drop_list">Denim</li>
-                    <li class="drop_list">Hoodies & Sweatshirts</li>
-                    <li class="drop_list">Jackets & Coats</li>
-                    <li class="drop_list">Pants</li>
-                    <li class="drop_list">Polos</li>
-                    <li class="drop_list">Shirts</li>
-                    <li class="drop_list">Shoes</li>
-                    <li class="drop_list">Shorts</li>
-                    <li class="drop_list">Sweaters & Knits</li>
-                    <li class="drop_list">T-Shirts</li>
-                    <li class="drop_list">Tanks</li>
-                </ul>
-
-            </details>
-            <details>
-                <summary>Brand</summary>
-            </details>
-            <details>
-                <summary>Designer</summary>
-            </details>
+    </section>
+    <section class="cf-content center">
 
 
-        </div>
-        <div class="catalog-filter">
-            <div class="catalog-top-filter">
-                <h1>TRENDING NOW</h1>
-                <ul class="catalog-top-list">
-                li.Bohemian
-                Floral
-                Lace
-                Floral
-                Lace
-                Bohemian
-                </ul>
+          <details class="cf-drop__details">
+              <summary class="cf-drop__summary">Category<span class="fas fa-caret-up span_fas"></span></summary>
+              <div class="test">
+              <ul class="cf-drop__ul">
+                  <li class="cf-drop__list">Accessories</li>
+                  <li class="cf-drop__list">Bags</li>
+                  <li class="cf-drop__list">Denim</li>
+                  <li class="cf-drop__list">Hoodies & Sweatshirts</li>
+                  <li class="cf-drop__list">Jackets & Coats</li>
+                  <li class="cf-drop__list">Pants</li>
+                  <li class="cf-drop__list">Polos</li>
+                  <li class="cf-drop__list">Shirts</li>
+                  <li class="cf-drop__list">Shoes</li>
+                  <li class="cf-drop__list">Shorts</li>
+                  <li class="cf-drop__list">Sweaters & Knits</li>
+                  <li class="cf-drop__list">T-Shirts</li>
+                  <li class="cf-drop__list">Tanks</li>
+              </ul>
+              </div>
+          </details>
+          <details class="cf-drop__details">
+              <summary class="cf-drop__summary">Brand</summary>
+          </details>
+          <details class="cf-drop__details">
+              <summary class="cf-drop__summary">Designer</summary>
+          </details>
+      </aside>
+        <div>
+        <div class="catalog center">
+            <div class="catalog-filter">
+                <div class="cf-trend">
+                        <h1 class="catalog-filter__h1">TRENDING NOW</h1>
+                        <div class="cf-trend__part">
+                                <ul class="cf-trend__list">
+                                    <li class="cf-trend__link"><span class="cf-trend__span">Bohemian</span></li>
+                                    <li class="cf-trend__link"><span class="cf-trend__span">Floral</span></li>
+                                    <li class="cf-trend__link"><span class="cf-trend__span">Lace</span></li>
+                                </ul>
+                                <ul class="cf-trend__list">
+                                    <li class="cf-trend__link"><span class="cf-trend__span">Floral</span></li>
+                                    <li class="cf-trend__link"><span class="cf-trend__span">Lace</span></li>
+                                    <li class="cf-trend__link"><span class="cf-trend__span">Bohemian</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                <div class="cf-size">
+                    <h1 class="catalog-filter__h1">SIZE</h1>
+                    <div class="cf-size__block">
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >XXS</label>
+                        </div>
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >XS</label>
+                        </div>
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >S</label>
+                        </div>
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >M</label>
+                        </div>
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >L</label>
+                        </div>
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >XLL</label>
+                        </div>
+                        <div class="cf-size__select">
+                            <input type="checkbox" CLASS="cf-size_input" > <label >XXL</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="cf-price">
+                        <h1 class="catalog-filter__h1">PRICE</h1>
+                    <input type="range" class="range">
+                    </div>
+
+
             </div>
-            <div class="top-filter-size">SIZE
-
             </div>
-            <div class="top-filter-price">PRICE</div>
-        </div>
-
-    </div>
-
-    <section class="product-box center catalog-product">
+        <div class="product-box center catalog-product">
       <div class="product_boxes">
         <div class="product">
           <a href="#"><img class="product__img" src="img/ctlg-1.png" alt="photo product"/></a>
@@ -331,6 +355,8 @@
          </div>
 
       </div>
+    </div>
+        </div>
     </section>
     <section class="browse_all_pr center">
       <a class="button_2" href="#">Browse All Product</a>

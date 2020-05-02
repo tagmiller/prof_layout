@@ -1,14 +1,24 @@
+
 .sp
     margin-bottom: 763px
     background-color: #f7f7f7
+    &-product-info__arrows
+        display: flex
+        position: absolute
+        margin-top: 299px
+        justify-content: space-between
+        width: 100%
     &__image
         height: 777px
         background-color: #f7f7f7
         text-align: center
-    &-button
-        width: 47px
-        height: 47px
-        background-color: #2a2a2a
+        &-button
+            background-color: #2a2a2a
+            opacity: 15%
+            padding: 16px 17px 18px 21px
+            background-color: gray
+            color: whitesmoke
+
     &__rating_new
         font-size: 17px
         margin-top: 26px
@@ -112,7 +122,8 @@
         margin-top: 29px
         display: flex
         justify-content: center
-
+        &:hover
+            box-shadow: 0px 0px 10px 0px #b2b2b2
         &_cart
             align-self: center
             padding-right: 15px
@@ -122,6 +133,8 @@
             font-size: 16px
             font-weight: bold
             color: #ef5b70
+            align-self: center
+
 
 .choose
     display: flex
